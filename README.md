@@ -24,7 +24,7 @@ mask=VGA.txt
 maskmode=2x
 ```
 
-If a particular setting is not specified, or the file cannot be found, it will simply be ignored when the preset is loaded. If the setting is set to `off` it will be disabled, and setting one of the filters to `same` will have the same function as setting them to `same` on the menu.
+If a particular setting is not specified the setting will be ignored when the preset is loaded. If the filter/mask/gamma file specified in the preset is not found, the option will be disabled. If the setting is set to `off` it will be disabled, and setting one of the filters to `same` will have the same function as setting them to `same` on the menu.
 
 Each file specified is relative to its base folder, so `shadow_masks` for masks, `Gamma` for gamma, and etc.
 
